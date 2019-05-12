@@ -46,7 +46,7 @@ public class UploadHandleServlet extends HttpServlet {
 	public void init() throws ServletException {
 		// TODO Auto-generated method stub
 		super.init();
-
+	///这是
 		Calendar c = Calendar.getInstance();// 可以对每个时间域单独修改
 		year = String.valueOf(c.get(Calendar.YEAR));
 		month = String.valueOf(c.get(Calendar.MONTH) + 1);
